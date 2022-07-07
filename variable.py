@@ -22,3 +22,15 @@ VARIABLE RULES:
 #multiple assignment
 x, y, name, is_cool = ( 1 , 2.5, 'brian', True )
 
+# basic math
+a = x + y
+
+# casting
+x = str(x)
+y = int(y)
+
+# check type
+print(type(y))
+
+
+
